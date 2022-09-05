@@ -37,8 +37,5 @@ public class Lanche {
 
 
 
-    public static void main(String[] args) {
-        Lanche XBurguer = new Lanche("X-Burguer", 1000.0, 1000.0, 20.0);
-        System.out.println(XBurguer.nomeLanche);
-    }
+
 }

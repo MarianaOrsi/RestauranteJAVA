@@ -13,9 +13,5 @@ public class Bebidas {
 
 
 
-    public static void main(String[] args) {
-        Bebidas caipirinha = new Bebidas("Caipirinha", true, 300.0, 399.0, 20.0);
 
-        System.out.println(caipirinha.nomeBebida);
-    }
 }

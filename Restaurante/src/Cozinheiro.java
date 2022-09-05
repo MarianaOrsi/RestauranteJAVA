@@ -7,13 +7,12 @@ public class Cozinheiro {
         this.cpf = cpf;
     }
 
-    public static void Cozinhar(String nomeCozinheiro, String nomeComida){
-        System.out.println("O cozinheiro "+ nomeCozinheiro +" preparou seu " + nomeComida);
+    public void cozinhar(String nomeComida) {
+        System.out.println("O cozinheiro " + this.nome + " preparou seu " + nomeComida);
     }
 
-    public static void main(String[] args) {
-        Cozinheiro chef1 = new Cozinheiro("Erick", "Jaco", "123456");
-        Cozinhar(chef1.nome, "Bolo");
-
+    public void servirBebida(String nomeBebida){
+        System.out.println("O cozinheiro " + this.nome + " serviu sua " + nomeBebida);
     }
+
 }

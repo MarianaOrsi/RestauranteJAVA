@@ -37,8 +37,4 @@ public class Sobremesa {
 
 
 
-    public static void main(String[] args) {
-        Sobremesa bolo = new Sobremesa("Bolo", 1000.0, 1000.0, 20.0);
-
-    }
 }
